@@ -12,6 +12,7 @@ function logChange(val) {
 
 var SelectComponent = React.createClass({
   render: function() {
+    
 
     return (
       <div>

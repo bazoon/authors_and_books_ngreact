@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b68d58cfb8533df667d6"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ac910f24ed48c13b9ca4"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -560,8 +560,8 @@
 	__webpack_require__(514);
 
 	angular.module('myApp', ['react', 'page', 'logic.services', 'authors', 'books']);
+
 	__webpack_require__(515);
-	__webpack_require__(516);
 
 /***/ },
 /* 1 */
@@ -77027,36 +77027,7 @@
 	'use strict';
 
 	var React = __webpack_require__(188);
-
-	var HelloComponent = React.createClass({
-	  displayName: 'HelloComponent',
-
-	  propTypes: {
-	    fname: React.PropTypes.string.isRequired,
-	    lname: React.PropTypes.string.isRequired
-	  },
-	  render: function render() {
-	    return React.createElement(
-	      'span',
-	      null,
-	      'Hello ',
-	      this.props.fname,
-	      ' ',
-	      this.props.lname
-	    );
-	  }
-	});
-
-	angular.module('myApp').value('HelloComponent', HelloComponent);
-
-/***/ },
-/* 516 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	var React = __webpack_require__(188);
-	var Select = __webpack_require__(517);
+	var Select = __webpack_require__(516);
 
 	var options = [{ value: 'one', label: 'One' }, { value: 'two', label: 'Two' }];
 
@@ -77085,7 +77056,7 @@
 	angular.module('myApp').value('SelectComponent', SelectComponent);
 
 /***/ },
-/* 517 */
+/* 516 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/* disable some rules until we refactor more completely; fixing them now would
@@ -77097,11 +77068,11 @@
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 	var React = __webpack_require__(188);
-	var Input = __webpack_require__(518);
-	var classes = __webpack_require__(519);
-	var Value = __webpack_require__(520);
-	var SingleValue = __webpack_require__(521);
-	var Option = __webpack_require__(522);
+	var Input = __webpack_require__(517);
+	var classes = __webpack_require__(518);
+	var Value = __webpack_require__(519);
+	var SingleValue = __webpack_require__(520);
+	var Option = __webpack_require__(521);
 
 	var requestId = 0;
 
@@ -77940,7 +77911,7 @@
 	module.exports = Select;
 
 /***/ },
-/* 518 */
+/* 517 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -78048,7 +78019,7 @@
 	module.exports = AutosizeInput;
 
 /***/ },
-/* 519 */
+/* 518 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -78103,7 +78074,7 @@
 
 
 /***/ },
-/* 520 */
+/* 519 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -78182,7 +78153,7 @@
 	module.exports = Value;
 
 /***/ },
-/* 521 */
+/* 520 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -78208,7 +78179,7 @@
 	module.exports = SingleValue;
 
 /***/ },
-/* 522 */
+/* 521 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
